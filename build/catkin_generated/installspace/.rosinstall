@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /ur5robot_ws/install/setup.sh

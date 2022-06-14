@@ -1,0 +1,2 @@
+robotiq/robotiq_description:robotiq_moveit:ur5/ur5_description:ur5/ur5_gazebo
+-DCATKIN_DEVEL_PREFIX=/ur5robot_ws/devel -DCMAKE_INSTALL_PREFIX=/ur5robot_ws/install -G Unix Makefiles
