@@ -1,4 +1,4 @@
-prefix=/ur5robot_ws/install
+prefix=/ur5_robotiq/install
 
 Name: ur5_gazebo
 Description: Description of ur5_gazebo

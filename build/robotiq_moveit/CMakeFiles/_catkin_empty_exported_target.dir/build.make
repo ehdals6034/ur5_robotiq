@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /ur5robot_ws/src
+CMAKE_SOURCE_DIR = /ur5_robotiq/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /ur5robot_ws/build
+CMAKE_BINARY_DIR = /ur5_robotiq/build
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -63,10 +63,10 @@ robotiq_moveit/CMakeFiles/_catkin_empty_exported_target.dir/build: _catkin_empty
 .PHONY : robotiq_moveit/CMakeFiles/_catkin_empty_exported_target.dir/build
 
 robotiq_moveit/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	cd /ur5robot_ws/build/robotiq_moveit && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
+	cd /ur5_robotiq/build/robotiq_moveit && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
 .PHONY : robotiq_moveit/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 robotiq_moveit/CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /ur5robot_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ur5robot_ws/src /ur5robot_ws/src/robotiq_moveit /ur5robot_ws/build /ur5robot_ws/build/robotiq_moveit /ur5robot_ws/build/robotiq_moveit/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /ur5_robotiq/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ur5_robotiq/src /ur5_robotiq/src/robotiq_moveit /ur5_robotiq/build /ur5_robotiq/build/robotiq_moveit /ur5_robotiq/build/robotiq_moveit/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : robotiq_moveit/CMakeFiles/_catkin_empty_exported_target.dir/depend
 

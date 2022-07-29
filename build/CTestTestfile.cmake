@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /ur5robot_ws/src
-# Build directory: /ur5robot_ws/build
+# Source directory: /ur5_robotiq/src
+# Build directory: /ur5_robotiq/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

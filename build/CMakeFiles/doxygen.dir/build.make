@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /ur5robot_ws/src
+CMAKE_SOURCE_DIR = /ur5_robotiq/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /ur5robot_ws/build
+CMAKE_BINARY_DIR = /ur5_robotiq/build
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /ur5robot_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ur5robot_ws/src /ur5robot_ws/src /ur5robot_ws/build /ur5robot_ws/build /ur5robot_ws/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /ur5_robotiq/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ur5_robotiq/src /ur5_robotiq/src /ur5_robotiq/build /ur5_robotiq/build /ur5_robotiq/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

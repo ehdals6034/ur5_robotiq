@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /ur5robot_ws/devel/setup.sh
+    local-name: /ur5_robotiq/devel/setup.sh

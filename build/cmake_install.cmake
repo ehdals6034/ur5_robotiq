@@ -1,8 +1,8 @@
-# Install script for directory: /ur5robot_ws/src
+# Install script for directory: /ur5_robotiq/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/ur5robot_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/ur5_robotiq/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,92 +49,92 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/ur5robot_ws/install/_setup_util.py")
+   "/ur5_robotiq/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/ur5robot_ws/install" TYPE PROGRAM FILES "/ur5robot_ws/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/ur5_robotiq/install" TYPE PROGRAM FILES "/ur5_robotiq/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/ur5robot_ws/install/env.sh")
+   "/ur5_robotiq/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/ur5robot_ws/install" TYPE PROGRAM FILES "/ur5robot_ws/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/ur5_robotiq/install" TYPE PROGRAM FILES "/ur5_robotiq/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/ur5robot_ws/install/setup.bash;/ur5robot_ws/install/local_setup.bash")
+   "/ur5_robotiq/install/setup.bash;/ur5_robotiq/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/ur5robot_ws/install" TYPE FILE FILES
-    "/ur5robot_ws/build/catkin_generated/installspace/setup.bash"
-    "/ur5robot_ws/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/ur5_robotiq/install" TYPE FILE FILES
+    "/ur5_robotiq/build/catkin_generated/installspace/setup.bash"
+    "/ur5_robotiq/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/ur5robot_ws/install/setup.sh;/ur5robot_ws/install/local_setup.sh")
+   "/ur5_robotiq/install/setup.sh;/ur5_robotiq/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/ur5robot_ws/install" TYPE FILE FILES
-    "/ur5robot_ws/build/catkin_generated/installspace/setup.sh"
-    "/ur5robot_ws/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/ur5_robotiq/install" TYPE FILE FILES
+    "/ur5_robotiq/build/catkin_generated/installspace/setup.sh"
+    "/ur5_robotiq/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/ur5robot_ws/install/setup.zsh;/ur5robot_ws/install/local_setup.zsh")
+   "/ur5_robotiq/install/setup.zsh;/ur5_robotiq/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/ur5robot_ws/install" TYPE FILE FILES
-    "/ur5robot_ws/build/catkin_generated/installspace/setup.zsh"
-    "/ur5robot_ws/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/ur5_robotiq/install" TYPE FILE FILES
+    "/ur5_robotiq/build/catkin_generated/installspace/setup.zsh"
+    "/ur5_robotiq/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/ur5robot_ws/install/.rosinstall")
+   "/ur5_robotiq/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/ur5robot_ws/install" TYPE FILE FILES "/ur5robot_ws/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/ur5_robotiq/install" TYPE FILE FILES "/ur5_robotiq/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/ur5robot_ws/build/gtest/cmake_install.cmake")
-  include("/ur5robot_ws/build/robotiq_moveit/cmake_install.cmake")
-  include("/ur5robot_ws/build/ur5/ur5_description/cmake_install.cmake")
-  include("/ur5robot_ws/build/ur5/ur5_gazebo/cmake_install.cmake")
-  include("/ur5robot_ws/build/robotiq/robotiq_description/cmake_install.cmake")
+  include("/ur5_robotiq/build/gtest/cmake_install.cmake")
+  include("/ur5_robotiq/build/robotiq_moveit/cmake_install.cmake")
+  include("/ur5_robotiq/build/ur5/ur5_description/cmake_install.cmake")
+  include("/ur5_robotiq/build/ur5/ur5_gazebo/cmake_install.cmake")
+  include("/ur5_robotiq/build/robotiq/robotiq_description/cmake_install.cmake")
 
 endif()
 
@@ -146,5 +146,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/ur5robot_ws/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/ur5_robotiq/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

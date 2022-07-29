@@ -1,8 +1,8 @@
-# Install script for directory: /ur5robot_ws/src/ur5/ur5_gazebo
+# Install script for directory: /ur5_robotiq/src/ur5/ur5_gazebo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/ur5robot_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/ur5_robotiq/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/ur5robot_ws/build/ur5/ur5_gazebo/catkin_generated/installspace/ur5_gazebo.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/ur5_robotiq/build/ur5/ur5_gazebo/catkin_generated/installspace/ur5_gazebo.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur5_gazebo/cmake" TYPE FILE FILES
-    "/ur5robot_ws/build/ur5/ur5_gazebo/catkin_generated/installspace/ur5_gazeboConfig.cmake"
-    "/ur5robot_ws/build/ur5/ur5_gazebo/catkin_generated/installspace/ur5_gazeboConfig-version.cmake"
+    "/ur5_robotiq/build/ur5/ur5_gazebo/catkin_generated/installspace/ur5_gazeboConfig.cmake"
+    "/ur5_robotiq/build/ur5/ur5_gazebo/catkin_generated/installspace/ur5_gazeboConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur5_gazebo" TYPE FILE FILES "/ur5robot_ws/src/ur5/ur5_gazebo/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur5_gazebo" TYPE FILE FILES "/ur5_robotiq/src/ur5/ur5_gazebo/package.xml")
 endif()
 

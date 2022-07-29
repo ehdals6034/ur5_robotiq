@@ -1,4 +1,4 @@
-prefix=/ur5robot_ws/devel
+prefix=/ur5_robotiq/devel
 
 Name: ur5_description
 Description: Description of ur5_description

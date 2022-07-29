@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/ur5robot_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/ur5_robotiq/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/ur5robot_ws/build/gtest/googlemock/cmake_install.cmake")
+  include("/ur5_robotiq/build/gtest/googlemock/cmake_install.cmake")
 
 endif()
 

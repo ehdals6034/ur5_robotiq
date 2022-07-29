@@ -1,4 +1,4 @@
-prefix=/ur5robot_ws/devel
+prefix=/ur5_robotiq/devel
 
 Name: robotiq_moveit
 Description: Description of robotiq_moveit

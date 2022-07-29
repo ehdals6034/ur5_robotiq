@@ -1,8 +1,8 @@
-# Install script for directory: /ur5robot_ws/src/robotiq_moveit
+# Install script for directory: /ur5_robotiq/src/robotiq_moveit
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/ur5robot_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/ur5_robotiq/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,25 +38,25 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/ur5robot_ws/build/robotiq_moveit/catkin_generated/installspace/robotiq_moveit.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/ur5_robotiq/build/robotiq_moveit/catkin_generated/installspace/robotiq_moveit.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotiq_moveit/cmake" TYPE FILE FILES
-    "/ur5robot_ws/build/robotiq_moveit/catkin_generated/installspace/robotiq_moveitConfig.cmake"
-    "/ur5robot_ws/build/robotiq_moveit/catkin_generated/installspace/robotiq_moveitConfig-version.cmake"
+    "/ur5_robotiq/build/robotiq_moveit/catkin_generated/installspace/robotiq_moveitConfig.cmake"
+    "/ur5_robotiq/build/robotiq_moveit/catkin_generated/installspace/robotiq_moveitConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotiq_moveit" TYPE FILE FILES "/ur5robot_ws/src/robotiq_moveit/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotiq_moveit" TYPE FILE FILES "/ur5_robotiq/src/robotiq_moveit/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotiq_moveit" TYPE DIRECTORY FILES "/ur5robot_ws/src/robotiq_moveit/launch" REGEX "/setup\\_assistant\\.launch$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotiq_moveit" TYPE DIRECTORY FILES "/ur5_robotiq/src/robotiq_moveit/launch" REGEX "/setup\\_assistant\\.launch$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotiq_moveit" TYPE DIRECTORY FILES "/ur5robot_ws/src/robotiq_moveit/config")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotiq_moveit" TYPE DIRECTORY FILES "/ur5_robotiq/src/robotiq_moveit/config")
 endif()
 

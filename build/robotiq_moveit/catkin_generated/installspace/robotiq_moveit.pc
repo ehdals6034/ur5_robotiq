@@ -1,4 +1,4 @@
-prefix=/ur5robot_ws/install
+prefix=/ur5_robotiq/install
 
 Name: robotiq_moveit
 Description: Description of robotiq_moveit

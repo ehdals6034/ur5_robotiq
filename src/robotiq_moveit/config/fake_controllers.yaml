@@ -14,7 +14,5 @@ controller_list:
     joints:
       - robotiq_85_left_knuckle_joint
 initial:  # Define initial robot poses.
-#  - group: arm
-#    pose: home
-
-  []
+  - group: arm
+    pose: ready
